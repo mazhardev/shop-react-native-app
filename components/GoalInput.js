@@ -16,7 +16,7 @@ const GoalInput = ({ addGoalHandler }) => {
                 onChangeText={goalInputHandler}
                 value={enteredGoal}
             />
-            <Button title="ADD" onPress={()=>addGoalHandler(enteredGoal)} />
+            <Button title="ADD" onPress={() => addGoalHandler(enteredGoal)} />
         </View>
     )
 }
